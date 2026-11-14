@@ -2,16 +2,15 @@
 
 header{
     background: white;
-    padding-bottom: 2px;
+    padding: 4px 0;
     border-bottom: 1px solid #14243A;
-    color: #14243A;
+    color: #14243A; 
+    font-family: "Playfair Display", serif;
 }
 
 header nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
+    display: flex;
 }
 
 header nav a{
