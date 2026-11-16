@@ -10,7 +10,7 @@ export function Header(){
         <nav className="col-lg-5 col-md-5 d-none d-md-flex justify-content-center align-items-center">
           <a href="#">HOMEM</a>
           <a href="#">MULHER</a>
-          <a href="#">CRIANÇAS E BEBÊS</a>
+          <a href="#">CRIANÇAS</a>
           <a href="#">PRESENTES</a>
         </nav>
         <div className="col-lg-3 col-md-2 col-sm-2 col-2 buttons-user">

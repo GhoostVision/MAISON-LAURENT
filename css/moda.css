@@ -1,0 +1,63 @@
+.modelo_homem{
+    background-image: url(../src/assets/imagens/modelo_homem.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-shadow: 4px 4px 5px #14243A;
+}
+.modelo_homem h3{
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    margin-left: 20px;
+}
+
+.modelo_homem p{
+     font-family: "Inter", sans-serif;
+     margin-left: 20px;
+}
+
+.modelo_homem a{
+    font-family: "Playfair Display", serif;
+    color: white;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.modelo_mulher{
+    background-image: url(../src/assets/imagens/modelo_feminino.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-shadow: 4px 4px 5px #14243A;
+}
+
+.modelo_mulher h3{
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    margin-left: 20px;
+}
+
+.modelo_mulher p{
+     font-family: "Inter", sans-serif;
+     margin-left: 20px;
+}
+
+.modelo_mulher a{
+    font-family: "Playfair Display", serif;
+    color: white;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    
+}
