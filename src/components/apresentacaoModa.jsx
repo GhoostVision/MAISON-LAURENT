@@ -1,4 +1,4 @@
-import "../css/moda.css";
+import "../../css/moda.css";
 
 export function Moda() {
   return (

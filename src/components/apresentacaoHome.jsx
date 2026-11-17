@@ -1,5 +1,4 @@
-import "../css/home.css"
-
+import "../../css/home.css"
 export function Home(){
     return <>
      <section className="home justify-content-center align-items-center">

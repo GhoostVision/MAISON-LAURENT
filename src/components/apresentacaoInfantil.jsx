@@ -1,4 +1,4 @@
-import "../css/infantil.css"
+import "../../css/infantil.css"
 
 export function Infantil(){
     return(

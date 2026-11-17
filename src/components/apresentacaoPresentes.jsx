@@ -1,4 +1,4 @@
-import "../css/presentes.css"
+import "../../css/presentes.css"
 
 export function Presentes(){
     return (
