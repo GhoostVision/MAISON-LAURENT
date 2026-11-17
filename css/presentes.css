@@ -1,0 +1,63 @@
+.presentes_separado{
+    background-image: url(../src/assets/imagens/presentes2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-shadow: 4px 4px 5px #14243A;
+}
+.presentes_separado h3{
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    margin-left: 20px;
+}
+
+.presentes_separado p{
+     font-family: "Inter", sans-serif;
+     margin-left: 20px;
+}
+
+.presentes_separado a{
+    font-family: "Playfair Display", serif;
+    color: white;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.presentes_kits{
+    background-image: url(../src/assets/imagens/presentes.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-shadow: 4px 4px 5px #14243A;
+}
+
+.presentes_kits h3{
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    margin-left: 20px;
+}
+
+.presentes_kits p{
+     font-family: "Inter", sans-serif;
+     margin-left: 20px;
+}
+
+.presentes_kits a{
+    font-family: "Playfair Display", serif;
+    color: white;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}

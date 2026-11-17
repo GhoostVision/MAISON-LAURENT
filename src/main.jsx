@@ -4,14 +4,16 @@ import { Header } from './components/header'
 import { Home } from '../pages/home.jsx'
 import { Moda } from '../pages/moda.jsx'
 import { Infantil } from '../pages/infantil.jsx'
+import { Presentes } from '../pages/presentes.jsx'
 import "../css/bootstrap.min.css"
 import "../js/bootstrap.bundle.min.js"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <Header />
-   <Home />
-   <Moda />
+   <Header/>
+   <Home/>
+   <Moda/>
    <Infantil/>
+   <Presentes/>
   </StrictMode>
 )
