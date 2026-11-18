@@ -1,4 +1,5 @@
 import "../../css/infantil.css"
+import { Link } from "react-router-dom";
 
 export function Infantil(){
     return(
@@ -6,7 +7,7 @@ export function Infantil(){
             <article>
              <h3>Coleção Infantil</h3>
              <p>Pequenos estilos, grandes personalidades. Descubra nossa coleção para os pequenos.</p>
-             <a href="/colecoes/infantil">EXPLORAR COLEÇÃO</a>
+             <Link to="/infantil">EXPLORAR COLEÇÃO</Link>
             </article>
         </section>
     );
