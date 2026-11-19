@@ -1,0 +1,33 @@
+
+
+/* Tablets */
+@media (max-width: 991px) {
+    .card_img {
+        height: 360px;
+    }
+
+    .titulo_card {
+        font-size: 26px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 576px) {
+    .card_img {
+        height: 250px;
+    }
+
+    .titulo_card {
+        font-size: 21px;
+    }
+
+    .preco_card {
+        font-size: 12px;
+    }
+
+    .button_card {
+        font-size: 9px;
+        padding: 8px 10px;
+        margin-left: 5px;
+    }
+}

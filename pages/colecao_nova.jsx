@@ -1,5 +1,6 @@
 import modelo from '../src/assets/imagens/modelo_homem.jpg'
 import '../css/cards.css'
+import "../css/responsividade.css"
 
 export function Colecao_nova(){
 
@@ -11,7 +12,7 @@ export function Colecao_nova(){
     ]
 
     const ExibirRoupas = roupas_principal.map((roupa)=>
-     <div className='card_produto col-3' key={roupa.id.toString()}>
+     <div className='card_produto col-6 col-sm-6 col-lg-3' key={roupa.id.toString()}>
         <img className='card_img' src={roupa.img} alt={roupa.nome} />
         <h2 className='titulo_card ft-2'>{roupa.nome}</h2>
         <p className='preco_card'>R${roupa.preco}</p>
