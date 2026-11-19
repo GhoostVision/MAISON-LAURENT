@@ -26,7 +26,7 @@ header .buttons-user{
     gap: 3px;
 }
 
-header .buttons-user a{
+header .buttons-user button{
  text-decoration: none;
  color: white;
  background: #14243A;
@@ -41,4 +41,8 @@ header .buttons-user a{
 header .dropdown button{
     background: #14243A;
     color: white;
+}
+header .buttons-user button .badge{
+    background: #14243A;
+    font-size: 10px;
 }

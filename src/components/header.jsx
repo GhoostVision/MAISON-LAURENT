@@ -14,8 +14,8 @@ export function Header(){
           <a href="#">PRESENTES</a>
         </nav>
         <div className="col-lg-3 col-md-2 col-sm-2 col-2 buttons-user">
-          <a href="" className="btn">C</a>
-          <a href="" className="btn">L</a>
+          <button href="" className="btn">L</button>
+          <button href="" className="btn position-relative">C<span className="position-absolute top-0 start-100 translate-middle badge rounded-pill border border-bg theme-danger">10</span></button>
         </div>
       <div className="dropdown col-md-2 d-md-none col-sm-2 col-2">
        <button className="btn">=</button>
