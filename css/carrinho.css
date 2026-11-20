@@ -1,0 +1,15 @@
+.carrinho {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100vh;
+    z-index: 9999;
+}
+
+.carrinho_box {
+    width: 350px;
+    height: 600px;
+    background-color: #14243A;
+    color: white;
+}
