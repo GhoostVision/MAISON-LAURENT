@@ -30,4 +30,8 @@
         padding: 8px 10px;
         margin-left: 5px;
     }
+
+    .info_recomendacao p{
+        font-size: 13px;
+    }
 }
