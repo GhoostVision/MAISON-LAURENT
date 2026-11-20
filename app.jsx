@@ -1,6 +1,7 @@
 import { Header } from './src/components/header'
 import { Apresentacoes } from './pages/apresentacoes'
 import { Colecao_masculina } from "./pages/colecao_maculina"
+import { Carrinho } from './pages/carrinho'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -13,6 +14,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
             <Routes>
                 <Route path="/" element={<Apresentacoes />} />
                 <Route path='/colecao_masculina' element={<Colecao_masculina/>}/>
+                <Route path='/carrinho' element={<Carrinho/>}/>
             </Routes>
         </BrowserRouter>
     )

@@ -1,15 +1,79 @@
-.carrinho {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 350px;
-    height: 100vh;
-    z-index: 9999;
+.topo_carrinho{
+    text-align: center;
+    border-bottom: 1px solid #14243A;
+    padding: 20px 0;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 10px;
 }
 
-.carrinho_box {
-    width: 350px;
-    height: 600px;
-    background-color: #14243A;
+.carrinho{
+    display: flex;
+}
+
+.produtos_carrinho{
+    width: 80%;
+    border-right: 1px solid #14243A;
+}
+
+.produto{
+    margin: 5px 10px;
+    width: 400px;
+    border: 1px solid #14243A;
+    color: #14243A;
+}
+
+.produto img{
+    height: 125px;
+    width: 125px;
+    object-fit: cover;
+}
+
+.produto p{
+    margin: 5px 10px;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+}
+
+.produto span{
+    margin: 0px 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.produto .quantidade p{
+    border: 1px solid #14243A;
+    padding: 1px 10px;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.produto .quantidade button{
+    background: #14243A;
+    border: none;
     color: white;
+    margin: 10px 10px;
+    padding:1px  15px;
+    border-radius: 5px;
+}
+
+.finalizar_carrinho{
+    border-left: 1px solid #14243A;
+    padding: 10px;
+}
+
+.finalizar_carrinho span{
+    color: #14243A;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.finalizar_carrinho button{
+    color: #14243A;
+    margin-top: 10px;
+    background: white;
+    font-family: "Inter", sans-serif;
+    border: 2px solid #14243A;
+    font-size: 12px;
+    padding: 10px 40px;
 }

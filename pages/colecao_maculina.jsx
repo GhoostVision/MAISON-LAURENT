@@ -2,6 +2,7 @@ import modelo from '../src/assets/imagens/modelo_homem.jpg'
 import '../css/cards.css'
 import "../css/responsividade.css"
 import "../css/tela_recomendacao.css"
+import "../css/carrinho.css"
 
 export function Colecao_masculina(){
 
