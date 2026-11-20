@@ -9,7 +9,7 @@ export function Moda() {
          <div className="modelo_homem">
           <h3>Coleção Masculina</h3>
           <p>Vista sua essência. Marque presença por onde passar.</p>
-          <Link to="/moda_masculina">EXPLORAR COLEÇÃO</Link>
+          <Link to="/colecao_masculina">EXPLORAR COLEÇÃO</Link>
          </div>
         </article>
         <article className=" col-12 col-md-6">

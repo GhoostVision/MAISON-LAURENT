@@ -3,7 +3,7 @@ import '../css/cards.css'
 import "../css/responsividade.css"
 import "../css/tela_recomendacao.css"
 
-export function Colecao_nova(){
+export function Colecao_masculina(){
 
     const roupas_principal = [
         {id:1, img:`https://i.pinimg.com/736x/14/8c/e4/148ce41f18231f2eb2adb2fa3e150588.jpg`, nome:`Polo Tricor`,preco:230.00 },
@@ -28,7 +28,7 @@ export function Colecao_nova(){
      <div id='camisas_masculina' className='card_produto col-6 col-sm-6 col-lg-3' key={roupa.id.toString()}>
         <img className='card_img' src={roupa.img} alt={roupa.nome} />
         <h2 className='titulo_card ft-2'>{roupa.nome}</h2>
-        <p className='preco_card'>R${roupa.preco}</p>
+        <p className='preco_card'>{roupa.preco.toLocaleString(`pt-BR`, {style: `currency`,currency: `BRL`})}</p>
         <button className='button_card'>ADICIONAR AO CARRINHO</button>
      </div>
     )
@@ -37,7 +37,7 @@ export function Colecao_nova(){
      <div id='acessorios_masculino' className='card_produto col-6 col-sm-6 col-lg-3' key={acessorios.id.toString()}>
         <img className='card_img' src={acessorios.img} alt={acessorios.nome} />
         <h2 className='titulo_card ft-2'>{acessorios.nome}</h2>
-        <p className='preco_card'>R$ {acessorios.preco}</p>
+        <p className='preco_card'>R$ {acessorios.preco.toLocaleString(`pt-BR`, {style: `currency`,currency: `BRL`})}</p>
         <button className='button_card'>ADICIONAR AO CARRINHO</button>
      </div>
     )
@@ -46,7 +46,7 @@ export function Colecao_nova(){
      <div className='card_produto col-6 col-sm-6 col-lg-3' key={calcas.id.toString()}>
         <img className='card_img' src={calcas.img} alt={calcas.nome} />
         <h2 className='titulo_card ft-2'>{calcas.nome}</h2>
-        <p className='preco_card'>R${calcas.preco}</p>
+        <p className='preco_card'>R${calcas.preco.toLocaleString(`pt-BR`, {style: `currency`,currency: `BRL`})}</p>
         <button className='button_card'>ADICIONAR AO CARRINHO</button>
      </div>
     )
