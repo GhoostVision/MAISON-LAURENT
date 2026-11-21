@@ -4,7 +4,7 @@ import "../css/responsividade.css"
 import "../css/tela_recomendacao.css"
 import "../css/carrinho.css"
 
-export function Colecao_masculina(){
+export function Colecao_masculina({adicionarAoCarrinho}){
 
     const roupas_principal = [
         {id:1, img:`https://i.pinimg.com/736x/14/8c/e4/148ce41f18231f2eb2adb2fa3e150588.jpg`, nome:`Polo Tricor`,preco:230.00 },
@@ -25,12 +25,12 @@ export function Colecao_masculina(){
         {id:4, img:`https://i.pinimg.com/1200x/5a/62/3e/5a623ef469606c55057bd1a54fbbddb7.jpg`, nome:`Calças Jeans`,preco:120.95 }
     ]
 
-    const ExibirRoupas = roupas_principal.map((roupa)=>
-     <div id='camisas_masculina' className='card_produto col-6 col-sm-6 col-lg-3' key={roupa.id.toString()}>
-        <img className='card_img' src={roupa.img} alt={roupa.nome} />
-        <h2 className='titulo_card ft-2'>{roupa.nome}</h2>
-        <p className='preco_card'>{roupa.preco.toLocaleString(`pt-BR`, {style: `currency`,currency: `BRL`})}</p>
-        <button className='button_card'>ADICIONAR AO CARRINHO</button>
+    const ExibirRoupas = roupas_principal.map((produto)=>
+     <div id='camisas_masculina' className='card_produto col-6 col-sm-6 col-lg-3' key={produto.id.toString()}>
+        <img className='card_img' src={produto.img} alt={produto.nome} />
+        <h2 className='titulo_card ft-2'>{produto.nome}</h2>
+        <p className='preco_card'>{produto.preco.toLocaleString(`pt-BR`, {style: `currency`,currency: `BRL`})}</p>
+        <button className='button_card' onClick={()=>adicionarAoCarrinho(produto)}>ADICIONAR AO CARRINHO</button>
      </div>
     )
 
